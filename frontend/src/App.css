@@ -1,0 +1,59 @@
+.app {
+  padding: 20px;
+}
+
+.status.ok {
+  color: #16a34a;
+}
+
+.status.error {
+  color: red;
+}
+
+.camera-container {
+  position: relative;
+  width: 640px;
+  height: 480px;
+  margin: auto;
+  background: black;
+}
+
+video, canvas {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.camera-off {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: blue;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.cards {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.card {
+  background: #222;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.label {
+  font-weight: bold;
+  text-transform: capitalize;
+}
